@@ -1,0 +1,22 @@
+doctype html
+html itemscope=true itemtype="http://schema.org/Product"
+  head
+    title = data.page.title || 'Resume - Adam Crownoble'
+
+    meta charset="utf-8"
+
+    == stylesheet_link_tag 'all'
+    link href="http://fonts.googleapis.com/css?family=Londrina+Outline|Karla" rel="stylesheet" type="text/css"
+
+  body class=page_classes
+    .wrapper
+      header
+        h1 Adam Crownoble
+        aside
+          a href="http://obledesign.com" obledesign.com
+          br
+          a href="mailto:adam@obledesign.com" adam@obledesign.com
+          br
+          | 928.239.4003
+
+      == yield
