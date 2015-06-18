@@ -28,7 +28,7 @@ GEM
       sass (>= 3.2, < 3.5)
     erubis (2.7.0)
     execjs (2.4.0)
-    ffi (1.9.7)
+    ffi (1.9.8)
     haml (4.0.6)
       tilt
     hike (1.2.3)
@@ -133,3 +133,6 @@ DEPENDENCIES
   rb-inotify
   slim
   therubyracer
+
+BUNDLED WITH
+   1.10.4
