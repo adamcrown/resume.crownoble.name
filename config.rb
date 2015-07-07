@@ -1,5 +1,5 @@
 # Set slim-lang output style
-Slim::Engine.set_default_options pretty: true, format: :html
+Slim::Engine.set_options pretty: true, format: :html
 
 ###
 # Compass
