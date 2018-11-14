@@ -38,7 +38,7 @@ GEM
     i18n (0.7.0)
     json (1.8.2)
     kramdown (1.6.0)
-    libv8 (3.16.14.7)
+    libv8 (3.16.14.19)
     listen (2.9.0)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -130,9 +130,8 @@ PLATFORMS
 DEPENDENCIES
   middleman
   middleman-deploy
-  rb-inotify
   slim
   therubyracer
 
 BUNDLED WITH
-   1.10.4
+   1.15.1
