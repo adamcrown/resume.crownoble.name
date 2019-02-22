@@ -82,7 +82,7 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method = :rsync
+  deploy.deploy_method = :rsync
   deploy.user = 'anoble'
   deploy.host = 'digitalocean'
   deploy.path = '/srv/static/resume.crownoble.name'
