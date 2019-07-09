@@ -84,6 +84,6 @@ end
 activate :deploy do |deploy|
   deploy.deploy_method = :rsync
   deploy.user = 'anoble'
-  deploy.host = 'digitalocean'
+  deploy.host = 'codenoble'
   deploy.path = '/srv/static/resume.crownoble.name'
 end
