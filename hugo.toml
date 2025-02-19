@@ -1,0 +1,4 @@
+baseURL = 'https://resume.crownoble.name/'
+languageCode = 'en-us'
+title = 'Adam Crownoble - Resume'
+theme = 'resume'

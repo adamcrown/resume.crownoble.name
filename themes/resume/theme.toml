@@ -1,0 +1,10 @@
+name = 'Resume'
+description = 'Theme description'
+
+# Taxonomy terms
+tags = ['resume']
+
+# If the theme has a single author
+[author]
+  name = 'Adam Crownoble'
+  homepage = 'https://codenoble.com'
