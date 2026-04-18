@@ -76,6 +76,7 @@ h3
   font-size: 22pt
   margin-top: 50px
   margin-bottom: 0
+  border-bottom: solid #6a6a6a 1px
 
 h4
   font-size: 16pt
@@ -118,3 +119,36 @@ footer
 
   header aside
     flex-wrap: wrap
+
+ul.companies
+  padding-left: 0
+
+  li.company
+    list-style: none
+    & > strong
+      display: block
+      margin-top: 20px
+      a
+        font-family: "Slabo 27px", serif
+        font-size: 16pt
+        font-weight: normal
+
+  ul.positions
+    padding-left: 0
+    li.position
+      margin-bottom: 20px
+      list-style: none
+      span.position
+        font-weight: bold
+      span.tenure
+        font-style: italic
+        color: #6a6a6a
+        &::before
+          content: "• "
+
+ul.languages
+  span.level
+    font-style: italic
+    color: #6a6a6a
+    &::before
+      content: "• "
